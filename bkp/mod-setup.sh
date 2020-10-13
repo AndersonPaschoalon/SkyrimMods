@@ -1,11 +1,12 @@
 #!/bin/bash
 STEAM_DATA_PATH="C:\Program Files (x86)\Steam\steamapps\common\Skyrim\Data"
 #STEAM_DATA_PATH_UNIX='/c/Program Files (x86)/Steam/steamapps/common/Skyrim/Data'
-PAR_MOD_NAME=$1
+
 
 function main()
 {
-	backup_to_commit;
+	arg1=$1
+	backup_to_commit ${arg1};
 }
 
 function help_menu()
@@ -21,11 +22,12 @@ function pause(){
 
 function backup_to_commit()
 {
+	arg1=$1
 	# check if mod name is empty
 	echo ${steamDataPath}
-	if [ -z "$PAR_MOD_NAME" ]
+	if [ -z "$arg1" ]
 	then
-		echo "\$PAR_MOD_NAME is empty"
+		echo "\$arg1 is empty"
 		return -1;
 	fi
 	
@@ -36,9 +38,9 @@ function backup_to_commit()
 		return -1;
 	fi	
 
-	local modNameEx=${PAR_MOD_NAME}".esp"
+	local modNameEx=${arg1}".esp"
 	local modPath=${STEAM_DATA_PATH}"\\"${modNameEx}
-	local modBackupDst=".\\"${PAR_MOD_NAME}"\\"
+	local modBackupDst=".\\"${arg1}"\\"
 	
 	# check if steam data path exists
 	if test -a "$STEAM_DATA_PATH"; then
@@ -70,7 +72,7 @@ function backup_to_commit()
 	echo "BACKUP UPDATED!"
 }
 
-main;
+main $1;
 
 
 
