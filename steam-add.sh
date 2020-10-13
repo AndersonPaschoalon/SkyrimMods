@@ -114,7 +114,8 @@ function backup_file()
 	
 	#do backup
 	logOk "${filePath} => ${modBackupDst}\\"
-	cp -R "${filePath}" ${modBackupDst}"\\";
+	#cp -R "${filePath}" ${modBackupDst}"\\";
+	install -D "${filePath}" ${modBackupDst}"\\"${fileName};
 	return $?;
 }
 

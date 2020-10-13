@@ -1,1 +1,2 @@
 TestMod02.esp
+scripts\source\TestMod02_HelloWorld.psc
