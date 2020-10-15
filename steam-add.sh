@@ -1,5 +1,11 @@
 #!/bin/bash
+
+# ini file
 source ./steam-path.ini
+
+# constants 
+RED='\033[0;31m'
+NC='\033[0m' # No Color
 
 function main()
 {
@@ -61,7 +67,7 @@ function logOk()
 
 function logNok()
 {
-	echo "  [NOK]  ""$*";
+	printf "  ${RED}[NOK]  ""$*"${NC}"\n";
 }
 
 # Copy a Single file from Steam instalation

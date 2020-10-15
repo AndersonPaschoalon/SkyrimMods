@@ -1,2 +1,5 @@
 TestMod02.esp
 scripts\source\TestMod02_HelloWorld.psc
+scripts\source\TestMod02_BarrelDragonCode.psc
+scripts\source\TestMod02_HellSkeever.psc
+
