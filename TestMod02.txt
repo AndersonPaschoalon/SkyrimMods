@@ -2,4 +2,9 @@ TestMod02.esp
 scripts\source\TestMod02_HelloWorld.psc
 scripts\source\TestMod02_BarrelDragonCode.psc
 scripts\source\TestMod02_HellSkeever.psc
-
+scripts\TestMod02_BarrelDragonCode.pex
+scripts\TestMod02_HelloWorld.pex
+scripts\TestMod02_HellSkeever.pex
+Sound\Voice\TestMod02.esp\MaleKhajiit\TestMod02__TestMod02_Start_00006CA7_1.lip
+Sound\Voice\TestMod02.esp\MaleKhajiit\TestMod02__TestMod02_Start_00006CA7_1.wav
+DialogueViews\02006CA4.xml
