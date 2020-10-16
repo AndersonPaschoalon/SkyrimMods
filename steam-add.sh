@@ -151,7 +151,7 @@ function steam_add()
 		if [[ ${ret} != "0" ]]
 		then
 			logNok " ***ERROR*** ON backup_file() ret:${ret}"
-			return 1;
+			#return 1;
 		else 
 			logOk "backup_file() ret=$?"
 		fi
