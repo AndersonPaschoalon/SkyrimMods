@@ -1,0 +1,8 @@
+# Join Silver Hands
+player.AddToFaction 000AA0A4 4
+
+# Teleport
+coc TestMod02
+coc RiverwoodSleepingGiantInn
+coc DriftshadeSanctuary01
+
