@@ -114,12 +114,11 @@ Silver Hand Guard: I know you would be able to do it. Go talk to "Krev the Skinn
 [Dragonborn se Aproxima de "Krev the Skinner" depois de entrar em Gallows Rock pela primeira vez]
 
 Dragonborn: Are you Krev the Skinner? I'm here bacause I want to join the Silver Hand. 
-
 Krev: Yes I'm! Welcome! You did well against the frost troll on the Cold Rock Pass. Congratulations! You proceed well on our initiation. 
 Krev: But, before we proceed, I have a question. Why do you want to join the Silver Hands?
 
-
 Dragonborn: I want to hunt Werewolfs.
+OR
 Dragonborn: I want to fight against the influence of Daedra in Skyrim.
 Krev: An adventure seeker eh? We need more people like you here. 
 Krev: This is an honor cause that every sons and daughters of Skyrim who wish to go Sovengard one day, must fight for.
@@ -150,13 +149,22 @@ Krev: Meet the brothers on the entrance of the tumb, and help them retrieve the 
 Dragonborn: Fragment of Wuuthrad?
 
 Krev: Yes. Wuuthrad is a legendary axe owned by the great nord hero Ysgramor, our spíritual patron and guide of our group. 
-Krev: But it was broken into pieces centuries ago. We have been investigating  and searching all over Skyrim to find all pieces. 
+Krev: But it was broken into pieces many centuries ago. 
+Krev: We have been investigating  and searching all over Skyrim to find all pieces since the beginning of the Silver Hand. 
 Krev: We were able to find many of them. Now we have enough clues to believe that one of the last fragments lies on Dustman Cairn. 
-Krev: We need to investigate, before the damn companions put their dog dirty hands on it.
+Krev: We need to investigate, before the damn Companions put their dog dirty hands on it.
+Krev: That's because we belive The Companions, our greatest enemies, might alread know that.
+Krev: What they do not have in brains, they have on good contacts.
+Krev: By the way, as you may aready imagine, the Companions veterans are Werewolfes. All of them. 
+Krev: They have that smalltalk about Nord proud and Ysgramor, but the thuth is: they are traitors servants worshipers of Hercine. 
+Krev: Just the newcomers are not yet, but make no mistake. Many of them know about this "secret" and are still loyal.
+Krev: But, enough talk. You must go to Dustman Cairn now! 
 
 Dragonborn: I’ll retrieve the Fragment to honor Ysgramor.
 
-Krev: Perfect. If you find the fragment, give it to Fjol's hand. He is the leader of Driftshade Refuge.
+Krev: Perfect. You you find the rest of the man on the entrance of the Dustman Cairn. They you aid you on this task. 
+Krev: If you find the fragment, give it to Fjol's hand. He is the leader of Driftshade Refuge.
+
 Dragonborn: Considere the task done. 
 
-Krev: That is the spirit  newcomer. You will find some aid from other silverhand camps on the entrance of the tumb. Good look out there.
+Krev: That is the spirit  brother! Once you complete the task, you may ask any doubt you have to Fjol. He is the bigger brain we have.

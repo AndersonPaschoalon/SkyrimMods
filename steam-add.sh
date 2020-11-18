@@ -61,9 +61,22 @@ function pause()
 
 function logOk()
 {
-	echo "  [OK]   ""$*";
+	if [[ $LOG_LEVEL == "DEBUG" ]];
+	then
+		echo "  [OK]   ""$*";
+	fi
 }
 
+function logComment()
+{
+	if [[ $LOG_LEVEL == "DEBUG" ]];
+	then
+		echo "  [OK]   ""$*";
+	elif [[ $LOG_LEVEL == "INFO" ]];
+	then
+		echo "INFO: ""$*";
+	fi
+}
 
 function logNok()
 {
@@ -75,6 +88,13 @@ function backup_file()
 {
 	local fileName=${1};
 	local dstDir=${2};
+	
+	# checK if filename is a comment. If it is, just print
+	if [[ $fileName = '#'* ]]
+	then 
+		logComment $fileName
+		return 0;
+	fi
 	
 	# check if args are empty
 	if [ -z "$fileName" ]
